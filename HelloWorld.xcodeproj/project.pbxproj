@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57065D1F2B7DF4130066C92D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57065D1E2B7DF4130066C92D /* AppDelegate.m */; };
+		57065D222B7DF4130066C92D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57065D212B7DF4130066C92D /* SceneDelegate.m */; };
+		57065D252B7DF4130066C92D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57065D242B7DF4130066C92D /* ViewController.m */; };
+		57065D282B7DF4130066C92D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57065D262B7DF4130066C92D /* Main.storyboard */; };
+		57065D2A2B7DF4150066C92D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57065D292B7DF4150066C92D /* Assets.xcassets */; };
+		57065D2D2B7DF4150066C92D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57065D2B2B7DF4150066C92D /* LaunchScreen.storyboard */; };
+		57065D302B7DF4150066C92D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57065D2F2B7DF4150066C92D /* main.m */; };
+		57065D372B7DF4C60066C92D /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065D362B7DF4BE0066C92D /* libresolv.9.tbd */; };
+		57065D392B7DF4CE0066C92D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065D382B7DF4C60066C92D /* libresolv.tbd */; };
+		57065D3B2B7DFFF60066C92D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065D3A2B7DFFF10066C92D /* libz.tbd */; };
+		57065D3D2B7E00040066C92D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065D3C2B7DFFFF0066C92D /* libsqlite3.tbd */; };
+		57065D3F2B7E00120066C92D /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065D3E2B7E000D0066C92D /* libiconv.tbd */; };
+		57065D412B7E00250066C92D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065D402B7E001E0066C92D /* libc++.tbd */; };
+		57065D432B7E042B0066C92D /* agconnect-services.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57065D422B7E042B0066C92D /* agconnect-services.plist */; };
+		57065DB02B7F00650066C92D /* HiAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065DA62B7F00640066C92D /* HiAnalytics.xcframework */; };
+		57065DB12B7F00650066C92D /* HmsPushSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065DA72B7F00640066C92D /* HmsPushSdk.framework */; };
+		57065DB22B7F00650066C92D /* AGConnectABTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065DA82B7F00640066C92D /* AGConnectABTest.xcframework */; };
+		57065DB32B7F00650066C92D /* AGConnectCrash.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065DA92B7F00640066C92D /* AGConnectCrash.xcframework */; };
+		57065DB42B7F00650066C92D /* HMFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065DAA2B7F00640066C92D /* HMFoundation.xcframework */; };
+		57065DB52B7F00650066C92D /* AGConnectCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065DAB2B7F00650066C92D /* AGConnectCore.xcframework */; };
+		57065DB62B7F00650066C92D /* AGConnectCredential.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065DAC2B7F00650066C92D /* AGConnectCredential.xcframework */; };
+		57065DB72B7F00650066C92D /* HiAnalyticsExtended.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065DAD2B7F00650066C92D /* HiAnalyticsExtended.framework */; };
+		57065DB82B7F00650066C92D /* AGConnectAPM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065DAE2B7F00650066C92D /* AGConnectAPM.framework */; };
+		57065DB92B7F00650066C92D /* AGConnectRemoteConfig.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57065DAF2B7F00650066C92D /* AGConnectRemoteConfig.xcframework */; };
+		81BC82C394D4CE7CBEBB8C7E /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9765022A544FA4AFA98A7CAA /* Pods_HelloWorld.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D6883200989EA20841FA7AD /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		57065D1A2B7DF4130066C92D /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57065D1D2B7DF4130066C92D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57065D1E2B7DF4130066C92D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57065D202B7DF4130066C92D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		57065D212B7DF4130066C92D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		57065D232B7DF4130066C92D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57065D242B7DF4130066C92D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57065D272B7DF4130066C92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57065D292B7DF4150066C92D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57065D2C2B7DF4150066C92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57065D2E2B7DF4150066C92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57065D2F2B7DF4150066C92D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57065D362B7DF4BE0066C92D /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		57065D382B7DF4C60066C92D /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		57065D3A2B7DFFF10066C92D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		57065D3C2B7DFFFF0066C92D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		57065D3E2B7E000D0066C92D /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		57065D402B7E001E0066C92D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		57065D422B7E042B0066C92D /* agconnect-services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "agconnect-services.plist"; sourceTree = "<group>"; };
+		57065DA62B7F00640066C92D /* HiAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = HiAnalytics.xcframework; sourceTree = "<group>"; };
+		57065DA72B7F00640066C92D /* HmsPushSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HmsPushSdk.framework; sourceTree = "<group>"; };
+		57065DA82B7F00640066C92D /* AGConnectABTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AGConnectABTest.xcframework; sourceTree = "<group>"; };
+		57065DA92B7F00640066C92D /* AGConnectCrash.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AGConnectCrash.xcframework; sourceTree = "<group>"; };
+		57065DAA2B7F00640066C92D /* HMFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = HMFoundation.xcframework; sourceTree = "<group>"; };
+		57065DAB2B7F00650066C92D /* AGConnectCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AGConnectCore.xcframework; sourceTree = "<group>"; };
+		57065DAC2B7F00650066C92D /* AGConnectCredential.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AGConnectCredential.xcframework; sourceTree = "<group>"; };
+		57065DAD2B7F00650066C92D /* HiAnalyticsExtended.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HiAnalyticsExtended.framework; sourceTree = "<group>"; };
+		57065DAE2B7F00650066C92D /* AGConnectAPM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AGConnectAPM.framework; sourceTree = "<group>"; };
+		57065DAF2B7F00650066C92D /* AGConnectRemoteConfig.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AGConnectRemoteConfig.xcframework; sourceTree = "<group>"; };
+		9765022A544FA4AFA98A7CAA /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB34D099BE71E48A9C29B440 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57065D172B7DF4130066C92D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57065D3F2B7E00120066C92D /* libiconv.tbd in Frameworks */,
+				57065DB32B7F00650066C92D /* AGConnectCrash.xcframework in Frameworks */,
+				57065DB82B7F00650066C92D /* AGConnectAPM.framework in Frameworks */,
+				57065D412B7E00250066C92D /* libc++.tbd in Frameworks */,
+				57065D3D2B7E00040066C92D /* libsqlite3.tbd in Frameworks */,
+				57065D372B7DF4C60066C92D /* libresolv.9.tbd in Frameworks */,
+				57065D3B2B7DFFF60066C92D /* libz.tbd in Frameworks */,
+				81BC82C394D4CE7CBEBB8C7E /* Pods_HelloWorld.framework in Frameworks */,
+				57065DB62B7F00650066C92D /* AGConnectCredential.xcframework in Frameworks */,
+				57065DB72B7F00650066C92D /* HiAnalyticsExtended.framework in Frameworks */,
+				57065DB92B7F00650066C92D /* AGConnectRemoteConfig.xcframework in Frameworks */,
+				57065DB42B7F00650066C92D /* HMFoundation.xcframework in Frameworks */,
+				57065DB52B7F00650066C92D /* AGConnectCore.xcframework in Frameworks */,
+				57065D392B7DF4CE0066C92D /* libresolv.tbd in Frameworks */,
+				57065DB02B7F00650066C92D /* HiAnalytics.xcframework in Frameworks */,
+				57065DB12B7F00650066C92D /* HmsPushSdk.framework in Frameworks */,
+				57065DB22B7F00650066C92D /* AGConnectABTest.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5544F75082682A8E5AD0512F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57065DA82B7F00640066C92D /* AGConnectABTest.xcframework */,
+				57065DAE2B7F00650066C92D /* AGConnectAPM.framework */,
+				57065DAB2B7F00650066C92D /* AGConnectCore.xcframework */,
+				57065DA92B7F00640066C92D /* AGConnectCrash.xcframework */,
+				57065DAC2B7F00650066C92D /* AGConnectCredential.xcframework */,
+				57065DAF2B7F00650066C92D /* AGConnectRemoteConfig.xcframework */,
+				57065DA62B7F00640066C92D /* HiAnalytics.xcframework */,
+				57065DAD2B7F00650066C92D /* HiAnalyticsExtended.framework */,
+				57065DAA2B7F00640066C92D /* HMFoundation.xcframework */,
+				57065DA72B7F00640066C92D /* HmsPushSdk.framework */,
+				57065D402B7E001E0066C92D /* libc++.tbd */,
+				57065D3E2B7E000D0066C92D /* libiconv.tbd */,
+				57065D3C2B7DFFFF0066C92D /* libsqlite3.tbd */,
+				57065D3A2B7DFFF10066C92D /* libz.tbd */,
+				57065D382B7DF4C60066C92D /* libresolv.tbd */,
+				57065D362B7DF4BE0066C92D /* libresolv.9.tbd */,
+				9765022A544FA4AFA98A7CAA /* Pods_HelloWorld.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57065D112B7DF4130066C92D = {
+			isa = PBXGroup;
+			children = (
+				57065D1C2B7DF4130066C92D /* HelloWorld */,
+				57065D1B2B7DF4130066C92D /* Products */,
+				91484A85C5F270FEFCCF927B /* Pods */,
+				5544F75082682A8E5AD0512F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57065D1B2B7DF4130066C92D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57065D1A2B7DF4130066C92D /* HelloWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57065D1C2B7DF4130066C92D /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				57065D422B7E042B0066C92D /* agconnect-services.plist */,
+				57065D1D2B7DF4130066C92D /* AppDelegate.h */,
+				57065D1E2B7DF4130066C92D /* AppDelegate.m */,
+				57065D202B7DF4130066C92D /* SceneDelegate.h */,
+				57065D212B7DF4130066C92D /* SceneDelegate.m */,
+				57065D232B7DF4130066C92D /* ViewController.h */,
+				57065D242B7DF4130066C92D /* ViewController.m */,
+				57065D262B7DF4130066C92D /* Main.storyboard */,
+				57065D292B7DF4150066C92D /* Assets.xcassets */,
+				57065D2B2B7DF4150066C92D /* LaunchScreen.storyboard */,
+				57065D2E2B7DF4150066C92D /* Info.plist */,
+				57065D2F2B7DF4150066C92D /* main.m */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		91484A85C5F270FEFCCF927B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D6883200989EA20841FA7AD /* Pods-HelloWorld.debug.xcconfig */,
+				CB34D099BE71E48A9C29B440 /* Pods-HelloWorld.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57065D192B7DF4130066C92D /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57065D332B7DF4150066C92D /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				8D20B874A3C16D23EE548A09 /* [CP] Check Pods Manifest.lock */,
+				57065D162B7DF4130066C92D /* Sources */,
+				57065D172B7DF4130066C92D /* Frameworks */,
+				57065D182B7DF4130066C92D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = 57065D1A2B7DF4130066C92D /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57065D122B7DF4130066C92D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					57065D192B7DF4130066C92D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 57065D152B7DF4130066C92D /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57065D112B7DF4130066C92D;
+			productRefGroup = 57065D1B2B7DF4130066C92D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57065D192B7DF4130066C92D /* HelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57065D182B7DF4130066C92D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57065D2D2B7DF4150066C92D /* LaunchScreen.storyboard in Resources */,
+				57065D432B7E042B0066C92D /* agconnect-services.plist in Resources */,
+				57065D2A2B7DF4150066C92D /* Assets.xcassets in Resources */,
+				57065D282B7DF4130066C92D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D20B874A3C16D23EE548A09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorld-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57065D162B7DF4130066C92D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57065D252B7DF4130066C92D /* ViewController.m in Sources */,
+				57065D1F2B7DF4130066C92D /* AppDelegate.m in Sources */,
+				57065D302B7DF4150066C92D /* main.m in Sources */,
+				57065D222B7DF4130066C92D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57065D262B7DF4130066C92D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57065D272B7DF4130066C92D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57065D2B2B7DF4150066C92D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57065D2C2B7DF4150066C92D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57065D312B7DF4150066C92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57065D322B7DF4150066C92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57065D342B7DF4150066C92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6883200989EA20841FA7AD /* Pods-HelloWorld.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = A6L2CL8HDT;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uob.cn.infinity.sit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "CN UOB Infinity SIT";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		57065D352B7DF4150066C92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB34D099BE71E48A9C29B440 /* Pods-HelloWorld.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = A6L2CL8HDT;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uob.cn.infinity.sit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "CN UOB Infinity SIT";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57065D152B7DF4130066C92D /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57065D312B7DF4150066C92D /* Debug */,
+				57065D322B7DF4150066C92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57065D332B7DF4150066C92D /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57065D342B7DF4150066C92D /* Debug */,
+				57065D352B7DF4150066C92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57065D122B7DF4130066C92D /* Project object */;
+}

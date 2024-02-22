@@ -1,0 +1,6 @@
+framework module HiAnalyticsExtended {
+  umbrella header "HiAnalyticsExtended.h"
+
+  export *
+  module * { export * }
+}

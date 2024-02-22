@@ -1,0 +1,6 @@
+framework module AGConnectAPM {
+  umbrella header "AGConnectAPM.h"
+
+  export *
+  module * { export * }
+}
